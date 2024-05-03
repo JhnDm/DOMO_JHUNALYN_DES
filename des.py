@@ -53,7 +53,7 @@ while True:
 
     # Encryption
     encrypted_data = encrypt_message(des_cipher, plaintext_bytes)
-    print("Encrypted Text (in hex):", encrypted_data.hex())
+    print("Encrypted Text:", encrypted_data.hex())
 
     # Decryption
     decrypted_data = decrypt_message(des_cipher, encrypted_data)
